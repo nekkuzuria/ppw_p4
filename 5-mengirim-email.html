@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MENGIRIM EMAIL DARI FORM</title>
+  </head>
+  <body bgcolor="#c6e2ff">
+    <center>
+      <form action="@" method="post" enctype="text/plain">
+        Nama : <input type="text" name="nama" value="Nama Kamu" />
+        <br />
+        Email : <input type="text" name="email" placeholder="Mail Anda" />
+        <br />
+        Komentar :
+        <textarea type="text" name="Komentar" cols="50" rows="4">
+ Komentar Anda </textarea
+        >
+        <br />
+        tambahan :
+        <input
+          type="text"
+          name="tambahan"
+          value="Tambahanmu"
+          size="40"
+          readonly
+        />
+        <br />
+        <br />
+        <input type="submit" value="Kirim" />
+        <input type="reset" value="Reset" />
+      </form>
+    </center>
+  </body>
+</html>
